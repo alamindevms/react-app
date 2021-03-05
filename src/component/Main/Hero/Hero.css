@@ -5,3 +5,12 @@
   height: 100%;
   justify-content: center;
 }
+
+.card-img-top{
+
+}
+.card-img-top .img-fluid{
+  min-height: 250px;
+  max-height: 250px;
+  width: 100%;
+}

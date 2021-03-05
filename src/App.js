@@ -1,14 +1,11 @@
-import './App.css';
-import Footer from './component/Footer/Footer';
-import Header from './component/Header/Header';
-import Welcome from './component/Main/Welcome';
-
-
+import "./App.css";
+import Footer from "./component/Footer/Footer";
+import Header from "./component/Header/Header";
+import Welcome from "./component/Main/Welcome";
 
 function App() {
   return (
-    <div className="App">
-
+    <div className="App container">
       {/* Header-Start */}
       <Header></Header>
       {/* Header-End */}
@@ -20,7 +17,6 @@ function App() {
       {/* Footer-Start */}
       <Footer></Footer>
       {/* Footer-End */}
-      
     </div>
   );
 }
